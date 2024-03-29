@@ -1,0 +1,47 @@
+//Practice set
+
+//Q!- Find the age of a person lie btw 10 & 20?
+
+// let age = prompt("what is your age? ")
+// if(age > 10 && age < 20){
+//     console.log("age of a person lie btw 10 & 20")
+// }
+// else{
+//     console.log("Does not")
+// }
+
+//Q2 Use of Swicth Statement
+
+// let age = prompt("what is your age?")
+// age = Number.parseInt(age)
+// switch(age){
+//     case 12:
+//         console.log("Age is 12")
+//         break
+//     case 13:
+//         console.log("Age is 13")
+//         break
+//     case 14:
+//         console.log("Age is 14")
+//         break
+//     default: 
+//         console.log("Invalid")
+//         break
+// }
+
+
+//Q3- find if number is divisible by 2 and 3
+
+let num = prompt("what is your age?")
+num = Number.parseInt(num)
+if(num % 2 == 0 && num % 3 == 0){
+    console.log("It's divisible")
+}
+else{
+    console.log("It's not")
+}
+
+
+
+
+

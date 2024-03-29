@@ -1,0 +1,27 @@
+//Conditional Statment
+
+let a = prompt("Hey what is your age? ")
+// console.log(typeof a)
+
+a = Number.parseInt(a) //convert string to number
+console.log(typeof a)
+
+
+if(a > 0){
+    alert("This is valid")
+}
+
+
+//If else
+
+let q = prompt("Hey what is your deadlift?")
+a = Number.parseInt(a)
+if(a > 2){
+    alert("This is valid")
+}
+else{
+    alert("This is not valid")
+}
+
+
+

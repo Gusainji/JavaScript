@@ -1,0 +1,34 @@
+//Guess the number
+//write a prog  to genrate a random number and stor it in a variable.Then prog take input from user to tell them whether the guess correct,greater,less then the original number
+
+
+const randNum = Math.floor(Math.random() * 100)
+
+function guessNumber(guess){
+    if(guess == randNum){
+        console.log("Number is Equal")
+    }else if(guess < randNum){
+        console.log("It is greater number")
+    }else{
+        console.log("It is less number")
+    }
+}
+
+function main(){
+    console.log("welcome to the guess game!!!")
+    console.log("Guess the random number btw 0 - 100")
+    
+    const UserGuess = parseInt(prompt("Enter the number...."))
+    
+    if(isNaN(UserGuess)){
+        console.log("Enter a valid number")
+    }else{
+        guessNumber(UserGuess)
+    }
+}
+main()
+
+
+
+
+

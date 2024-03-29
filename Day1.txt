@@ -1,0 +1,32 @@
+//Q1
+let a = "Hello"
+let b = 6
+console.log(a+b)
+console.log(typeof (a+b))
+
+//Q2
+const a1 = {
+    name: "Sachin",
+    section: 1
+}
+console.log(a1)
+
+//ADD TO THE 2ND QUESTION
+a1['friend'] = "Sachin"
+console.log(a1)
+
+//Q4 CHANGE THE VALUE INSIDE CONST
+
+a1['name'] = "Gusain"
+console.log(a1)
+
+//Q5- Dictonary
+
+const dict = {
+    appreciate: "to enjoy something or to understand the value of somebody/something",
+    support: "to help somebody by saying that you agree with him/her/it, and sometimes giving practical help such as money",
+    definitely:"certainly; without doubt"
+}
+
+console.log(dict.support)
+console.log(dict['definitely'])

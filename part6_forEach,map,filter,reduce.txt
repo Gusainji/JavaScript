@@ -1,0 +1,66 @@
+//forEach..............
+//forEach work on that array
+/*
+let a = [11,22,33,44]
+a.forEach((value)=>{
+  console.log(value)
+})
+*/
+
+
+//Map mthod 1
+//Map make a new array
+/*
+let arr = [1,2,3,4]
+arr.map((value)=>{
+  console.log(value)
+})
+*/
+
+//Map method 2
+
+/*
+let arr1 = [1,2,3,4]
+arr1.map((value)=>{
+  console.log(value)
+  return value
+})
+console.log(arr1)
+*/
+
+//Map 3 method
+
+/*
+let a = [1,2,3,4]
+a.map((value,index,array)=>{
+  console.log(value,index,array)
+})
+*/
+
+
+//Filter
+/*
+let a = [1,2,3,4,5]
+
+a1=a.filter((value)=>{
+  return value < 3
+})
+console.log(a1)
+*/
+
+//Reduce
+
+//first it add 1+2 then the sum of 1+2 add with 3 viceversa
+let a1= [1,2,3,4,5]
+// a2 = a1.reduce((h1,h2)=>{
+//   return h1+h2
+// })
+// console.log(a2)
+
+//...................
+
+const reduce_func=(h1,h2)=>{
+  return h1+h2
+}
+let newarr = a1.reduce(reduce_func)
+console.log(newarr)

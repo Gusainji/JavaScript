@@ -1,0 +1,42 @@
+//Operator
+
+console.log("Operator in JS")
+let a = 45;
+let b = 43;
+console.log("a+b =", a+b)
+console.log("a-b =", a-b)
+console.log("a*b =", a*b)
+console.log("a/b =", a/b)
+console.log("a%b =", a%b)
+console.log("a**b =", a**b) // it will be a^b.
+
+console.log("a++", a++) //1st print then increment
+console.log("After increment above",a) // Now a will be increment.
+
+console.log("++a",++a) //It will increment then print
+
+console.log("a--",a--) //this will first increment then print
+
+
+//Assignment Operator
+
+let q=1;
+q += 3;
+console.log(q)
+
+//Comparison
+
+let c = 3;
+let r = 2;
+console.log("c == r",c == r)
+console.log("c != r",c != r )
+
+console.log("c === r",c === r) //both c and r will work opposite of double comparison .
+
+//logical Operator
+
+let s = 1;
+let f = 2;
+console.log("s > f && s == f", s > f && s == f)
+
+
